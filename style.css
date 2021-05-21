@@ -1,0 +1,40 @@
+
+.container
+{
+    display: grid;
+    grid-template-columns:200px 200px 200px 200px 200px;
+    grid-column-gap:20px;
+    grid-row-gap:50px;
+}
+.item
+{
+    width:200px;
+    height:200px;
+    background: rgb(163, 157, 149);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+}
+.gamePlayer
+{
+    width:200px;
+    height:200px;
+    background: linear-gradient(rgb(88, 80, 80),rgb(228, 132, 132));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    color:red;
+}
+.score
+{
+    width:200px;
+    height:200px;
+    background: linear-gradient(rgb(228, 132, 132),rgb(88, 80, 80));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    color:red;
+}
